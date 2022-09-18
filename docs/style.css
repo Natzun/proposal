@@ -9,8 +9,9 @@
   --warning: #ffc409;
   --danger: #eb445a;
   --dark: #222428;
-  --medium: #92949c;
+  --medium: #92949ca4;
   --light: #f4f5f8;
+  --back: #92949c6d;
 }
 
 body {
@@ -26,4 +27,42 @@ a {
 
 span#heart {
   color: var(--danger);
+}
+
+#proposal-text{
+background-color: var(--back);
+padding-block: 1em;
+border-radius: 10px;
+font-size: larger;
+font-weight: bolder;
+word-wrap: break-word;
+}
+
+.proposal-button{
+padding: 1em;
+border-radius: 12px;
+font-size: large;
+font-weight: bolder;
+opacity: 0.6;
+}
+
+.proposal-button:hover{
+opacity: 0.8;
+}
+
+.proposal-button:active{
+  opacity: 1;
+}
+
+#proposal-yes{
+  background-color: var(--success);
+}
+
+#proposal-no{
+  background-color: var(--danger);
+  height: 61px;
+  width: 80px;
+  /* position: absolute;
+  left: 0px;
+  top: 0px; */
 }
