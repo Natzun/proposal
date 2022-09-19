@@ -37,3 +37,18 @@ span#heart {
   font-weight: bolder;
   word-wrap: break-word;
   }
+
+  #home{
+    background-color: var(--danger);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  #home:hover{
+    opacity: 0.8;
+    }
+
+  #home:active{
+      opacity: 1;
+    }

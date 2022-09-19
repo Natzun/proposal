@@ -66,3 +66,11 @@ opacity: 0.8;
   left: 0px;
   top: 0px; */
 }
+
+#count-span{
+  color: var(--wall);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: xx-large;
+}
