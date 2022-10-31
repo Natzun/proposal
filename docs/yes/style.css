@@ -29,7 +29,7 @@ span#heart {
   color: var(--danger);
 }
 
-#proposal-text{
+.proposal-text{
   background-color: var(--back);
   padding-block: 1em;
   border-radius: 10px;
@@ -51,4 +51,9 @@ span#heart {
 
   #home:active{
       opacity: 1;
+    }
+
+    .proposal-image{
+      width: 40%;
+      border-radius: 90px;
     }

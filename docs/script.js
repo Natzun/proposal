@@ -1,5 +1,7 @@
 console.log("[proposal] init");
 
+var DENY_MODE = "random-window"; // quando feito constante/config é utilizado maiúsculo
+
 var height = window.innerHeight;
 var width = window.innerWidth;
 
